@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #FDF9E9;
+}
+
+.container{
+    height: 90%;
+    width: 80%;
+    border: none;
+    background-color: rgb(255, 204, 25);
+    display: flex;
+    border-radius: 20px;
+    padding: 20px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.column{
+    padding: 20px;
+    text-align: center;
+}
+
+.left, .right {
+    width: 25%;
+}
+.middle{
+    width: 50%;
+}
+
+
+h1{
+    font-size: 73px;
+    font-weight:900;
+    font-family:"Antarctican Headline", Sans-serif;
+}
+
+h3{
+    font-family: "Roboto Condensed", Sans-serif;
+    font-size: 27px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.img1{
+    max-width: 100%;
+    max-height: auto;
+    margin-top: 50px;
+}
+
+.img2{
+    max-width: 100%;
+    max-height: auto;
+    margin-top: 300px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.lbl{
+    text-align: left;
+    font-family: "Antarctican Headline", Sans-serif;
+    font-size: 20px;
+    font-weight:600;
+}
+
+
+.inp{
+    width: 100%;
+    height: 50px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+
+
+.inplast{
+    margin:0px;
+}
+
+
+
+
+
+button{
+    height: 5vh;
+    width: 10vw;
+    position: relative;
+    text-align: center;
+    align-self: center;
+    border-radius: 10px;
+    background-color: black;
+    color :rgb(255, 204, 25);
+    font-size: large;
+    font-weight: bold;
+    font-family: "Antarctican Headline", Sans-serif;
+    margin-top: 30px;
+    transition:0.5s
+}
+
+
+button:hover{
+    background-color: white;
+    margin-top: 5px;
+}
